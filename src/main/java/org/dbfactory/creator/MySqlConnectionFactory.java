@@ -1,7 +1,7 @@
-package org.DbFactory.creator;
+package org.dbfactory.creator;
 
-import org.DbFactory.product.Connection;
-import org.DbFactory.product.MySqlConnection;
+import org.dbfactory.product.Connection;
+import org.dbfactory.product.MySqlConnection;
 
 public class MySqlConnectionFactory extends ConnectionFactory {
 

@@ -1,4 +1,4 @@
-package org.DbFactory.product;
+package org.dbfactory.product;
 
 public class MySqlConnection implements Connection {
 

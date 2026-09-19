@@ -1,7 +1,7 @@
-package org.DbFactory.creator;
+package org.dbfactory.creator;
 
-import org.DbFactory.product.Connection;
-import org.DbFactory.product.PostgreSqlConnection;
+import org.dbfactory.product.Connection;
+import org.dbfactory.product.PostgreSqlConnection;
 
 public class PostgreSqlConnectionFactory extends ConnectionFactory {
 

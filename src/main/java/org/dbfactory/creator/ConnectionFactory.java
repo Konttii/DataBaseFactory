@@ -1,10 +1,10 @@
-package org.DbFactory.creator;
+package org.dbfactory.creator;
 
-import org.DbFactory.product.Connection;
+import org.dbfactory.product.Connection;
 
 public abstract class ConnectionFactory {
 
-    public abstract Connection createConnection();
+    protected abstract Connection createConnection();
 
     public final String connectionAndDescribe(){
         Connection connection = createConnection();
